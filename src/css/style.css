@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+.translet-side {
+  transition: transform 0.5s;
+  transform: translateX(0);
+}
+@media (max-width: 1024px) {
+  .translet-side {
+    transition: transform 0.5s;
+    transform: translateX(-100%);
+  }
+}
